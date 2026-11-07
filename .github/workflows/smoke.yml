@@ -13,6 +13,6 @@ jobs:
     steps:
       - name: Print successful startup
         run: |
-          echo "A GitHub-hosted runner successfully started."
+          echo "GitHub runner retry after payment method update."
           echo "Repository: $GITHUB_REPOSITORY"
           echo "SHA: $GITHUB_SHA"
